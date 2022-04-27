@@ -1,0 +1,140 @@
+@media screen and (max-width: 775px) {
+    .head-main{
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .icon-grid{
+        margin-left: var(--size-10);
+    }
+    .empower-box{
+        margin-left: -0.3125rem;
+    }
+    .key-benefits{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .benefits-grid{
+        display: grid;
+        grid-template-columns: repeat(2, 15.625rem);
+        grid-template-rows: (3, var(--size-150) 18.75rem 18.75rem);
+        margin-left: 8.125rem;
+    }
+    #key-benefits{
+        grid-column: 1 / 3;
+        grid-row: 1 / 2;
+    }
+    .filler-container{
+        max-width: 53.125rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .filler-text{
+        max-width: 48.4375rem;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 0rem;
+        text-align: center;
+    }
+    .perspective{
+        margin-left: 0rem;
+        text-align: center;
+        margin-top: 0rem;
+    }
+    #get-started{
+        margin-left: 0rem;
+        margin-top: -1.25rem;
+    }
+    .banner-pic{
+    align-self: center;
+    }
+    .play-video{
+        left: 21.875rem;
+    }
+    .dots-pic{
+        left: var(--size-10);
+    }
+    .woman-three{
+        right: 7.5rem;
+    }
+    .testimonial-bottom{
+        max-width: 48.4375rem;
+    }
+    .pricing-grid{
+        column-gap: 0.9375rem;
+    }
+    .hire-us{
+        width: 53.125rem;
+    }
+    .hire-us-text{
+        margin-left: 0.9375rem;
+    }
+    .hire-us-form{
+        margin-right: 1.25rem;
+    }
+}
+
+
+@media screen and (max-width: 385px) {
+    [aria-controls="navbarDropdown"] {
+        display: block;
+    }
+    [aria-expanded="false"] ~ ul {
+        display: none;
+    }
+    [aria-expanded="true"] ~ ul {
+        display: block;
+    }
+    .navbar-toggler{
+        position: absolute;
+        right: -26.5625rem;
+        top: 4.6875rem;
+        border: none;
+        background-color: var(--blue);
+        color: var(--white);
+        width: var(--size-40);
+        height: var(--size-40);
+        border-radius: 0.3125rem;
+    }
+    .navbar-toggler span{
+        background-color: transparent;
+        font-size: var(--size-20);
+        cursor: pointer;
+        pointer-events: none;
+    }
+    .main-nav{
+    position: absolute;
+    right: -27.1875rem;
+    top: 8.125rem;
+    background-color: var(--blue);
+    z-index: 100;
+    width: 10.9375rem;
+    text-align: center;
+    padding-left: 1.5625rem;
+    padding-top: var(--size-10);
+    border-radius: var(--size-10);
+    }
+    #grey-link{
+        color: white;
+    }
+    #buy-now-button{
+        margin-top: var(--size-10);
+        margin-bottom: var(--size-10);
+        margin-left: -1.25rem;
+        background-color: var(--white);
+    }
+    #buy-now-button-top{
+        color: var(--blue);
+    }
+    body{
+        width: 51.25rem;
+    }
+    .play-video{
+        left: 23.4375rem;
+    }
+    .benefits-grid{
+        margin-left: 3.75rem;
+    }
+}
